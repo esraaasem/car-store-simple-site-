@@ -1,0 +1,104 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+    width:100%;
+}
+.container
+{
+    background-color: black;
+    width: 100%;
+    float: left;
+    
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a
+{
+    text-decoration: none;
+    color:  bisque;
+}
+a:hover 
+{
+    color:white;
+}
+.bg1
+{
+   height: 440px;
+   background-size: cover;
+    background-image: url(car1.jpg);
+}
+.container1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 40px;
+}
+.one , .two , .three
+{
+    width:200px;
+    height:200px;
+    border : 1px solid black;
+    padding: 30px;
+    overflow: hidden;
+}
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+button
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    width:150px;
+    height:25px;
+}
+.cont1 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:500px;
+    padding: 10px;;
+}
+input , textarea
+{
+    width:400px;
+}
+.four
+{
+    border:2px solid silver;
+    width:1100px;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top:30px;
+}
+.container2
+{
+    background-color: black;
+    width: 100%;
+    color:white ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footone
+{
+    margin-left: 20px;
+}
+iframe
+{
+    height:200px;
+    width:400px;
+}
